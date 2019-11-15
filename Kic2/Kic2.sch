@@ -72,10 +72,7 @@ $EndComp
 Wire Wire Line
 	3400 2650 3400 2750
 Wire Wire Line
-	3400 3050 3400 3850
-Wire Wire Line
-<<<<<<< HEAD
-	3400 3650 3400 3700
+	3400 3050 3400 3700
 Wire Wire Line
 	3400 4150 3400 4250
 $Comp
@@ -119,10 +116,7 @@ Wire Wire Line
 	4000 4250 3400 4250
 Connection ~ 3400 4250
 Wire Wire Line
-	3400 4250 3400 4350
-=======
-	3400 4150 3400 4950
-Wire Wire Line
 	3400 5250 3400 5350
->>>>>>>  SuP added
+Wire Wire Line
+	3400 4250 3400 4950
 $EndSCHEMATC
