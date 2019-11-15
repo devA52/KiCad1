@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Kic2-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -47,7 +48,49 @@ F 3 "~" H 3400 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 3650 3400 3850
+	3400 3650 3400 3700
 Wire Wire Line
-	3400 4150 3400 4350
+	3400 4150 3400 4250
+$Comp
+L Device:R R?
+U 1 1 5DCF0746
+P 5300 4000
+F 0 "R?" H 5370 4046 50  0000 L CNN
+F 1 "R" H 5370 3955 50  0000 L CNN
+F 2 "" V 5230 4000 50  0001 C CNN
+F 3 "~" H 5300 4000 50  0001 C CNN
+	1    5300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCF096B
+P 5300 4650
+F 0 "R?" H 5370 4696 50  0000 L CNN
+F 1 "R" H 5370 4605 50  0000 L CNN
+F 2 "" V 5230 4650 50  0001 C CNN
+F 3 "~" H 5300 4650 50  0001 C CNN
+	1    5300 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 3850
+Connection ~ 3400 3700
+Wire Wire Line
+	3400 3700 3400 3850
+Wire Wire Line
+	5300 4150 5300 4500
+Wire Wire Line
+	5300 4800 5300 4900
+Wire Wire Line
+	5300 4900 4000 4900
+Wire Wire Line
+	4000 4900 4000 4250
+Wire Wire Line
+	4000 4250 3400 4250
+Connection ~ 3400 4250
+Wire Wire Line
+	3400 4250 3400 4350
 $EndSCHEMATC
