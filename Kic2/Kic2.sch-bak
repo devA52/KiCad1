@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Kic2-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -150,38 +150,4 @@ Wire Wire Line
 Connection ~ 3400 2700
 Wire Wire Line
 	3400 2700 3400 2750
-$Comp
-L Device:R R?
-U 1 1 5DD283EB
-P 6300 3700
-F 0 "R?" H 6370 3746 50  0000 L CNN
-F 1 "100R" H 6370 3655 50  0000 L CNN
-F 2 "" V 6230 3700 50  0001 C CNN
-F 3 "~" H 6300 3700 50  0001 C CNN
-	1    6300 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5DD287FC
-P 6700 4900
-F 0 "R?" H 6770 4946 50  0000 L CNN
-F 1 "100R" H 6770 4855 50  0000 L CNN
-F 2 "" V 6630 4900 50  0001 C CNN
-F 3 "~" H 6700 4900 50  0001 C CNN
-	1    6700 4900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6150 3700 5300 3700
-Connection ~ 5300 3700
-Wire Wire Line
-	6550 4900 5300 4900
-Connection ~ 5300 4900
-Wire Wire Line
-	6850 4900 7300 4900
-Wire Wire Line
-	7300 4900 7300 3700
-Wire Wire Line
-	7300 3700 6450 3700
 $EndSCHEMATC
